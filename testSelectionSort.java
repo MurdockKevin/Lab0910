@@ -82,7 +82,7 @@ public class testSelectionSort {
 
         SelectionSort temp1 = new SelectionSort();
         sortArr= temp1.basicSelectionSort(arr);
-        assertArrayEquals(sortArr, Sortedarr);
+				assertArrayEquals(sortArr, Sortedarr);
         assertSame(Sortedarr[Sortedarr.length-1], sortArr[Sortedarr.length-1]);
         /** Test data contains with both positive, negative and zeros **/
     }
@@ -106,7 +106,7 @@ public class testSelectionSort {
 
         SelectionSort temp1 = new SelectionSort();
         sortArr= temp1.basicSelectionSort(arr);
-        assertArrayEquals(sortArr, Sortedarr);
+				assertArrayEquals(sortArr, Sortedarr);
         assertSame(Sortedarr[Sortedarr.length-1], sortArr[Sortedarr.length-1]);
         /** Test data contains duplicates **/
     }
